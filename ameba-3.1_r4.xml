@@ -12,7 +12,7 @@
   <!-- yocto -->
   <project path="sources/yocto/poky" name="poky" revision="9940cd4d8d7b424ec209a446519dd97c3840dcd4" remote="yp" upstream="kirkstone"/>
   <project path="sources/yocto/meta-openembedded" name="meta-openembedded" revision="4da92ed9be41734f6ced46b981958e2e868cbff2" remote="oe" upstream="kirkstone"/>
-  <project path="sources/yocto/meta-realtek-matter" name="meta-realtek-matter" revision="ameba-3.1-matter/dev/v1.3" remote="matter"/>
+  <project path="sources/yocto/meta-realtek-matter" name="meta-realtek-matter" revision="ameba-3.1+v1.4" remote="matter"/>
   <project path="sources/yocto/meta-realtek" name="meta-realtek">
     <copyfile src="tools/envsetup.sh" dest="envsetup.sh" />
   </project>
